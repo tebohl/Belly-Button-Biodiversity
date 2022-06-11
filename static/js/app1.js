@@ -112,7 +112,7 @@ function optionChanged(newID){
     d3.json(url).then(function(data) {
     // update the charts based on the option chosen
     createPlots(newID);
-    createSummary(patients[0]);
+    createSummary(newID);
 });
 }
 

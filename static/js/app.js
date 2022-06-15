@@ -20,7 +20,7 @@ function init(){
         createPlots(patients[0]);
         createSummary(patients[0]);
         }); //end function with data
-    } //end init
+} //end init
 
 
 ///function to create plots
